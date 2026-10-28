@@ -1,6 +1,6 @@
 // Priest class hooks for the shared Forever guide app.js
 (function(){
-const WN={shadow:'Shadow: solo',disc:'Disc alt: heal'};
+const WN={shadow:'Shadow',disc:'Discipline'};
 function healAt(l){return l>=20?'Flash Heal':l>=16?'Heal':'Lesser Heal'}
 function rotFor(l,W){const a=[];
  a.push('Buffs: <b>Power Word: Fortitude</b>'+(l>=12?' + <b>Inner Fire</b>':'')+' <span class="src">'+WN[W]+'</span>');
